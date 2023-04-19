@@ -1,0 +1,357 @@
+/*
+	사용폰트
+	font-family: 'Noto Serif', serif;
+	font-family: 'Noto Sans KR', sans-serif;
+*/
+
+/* 공통 */
+.clear:after {content:""; display:block; clear:both;}
+
+/*메인페이지 콘텐츠*/
+
+
+/*섹션 공통*/
+.contents, .contents a{font-family: 'Noto Sans KR', sans-serif;}
+.contents > section{margin-top: 60px;}
+
+/* 메인비주얼 공통 */
+.mv .mv_title{font-size: 28px; color: #fff; float: left; border: 0px solid yellow; height: 100%; padding: 100px 30px 0 0px; padding-left: 3.5vw;}
+.mv .mv_title h3{font-size: 32px; font-weight: 700; line-height: 1.4; display: block; letter-spacing: -0.08em; padding-top: 83px;}
+.mv .mv_title span{background: url(../img/uniqlo_u_logo.png) no-repeat center; width: 92px; height: 40px; display: inline-block;}
+.mv .mv_title p{font-size: 22px; font-weight: 300; padding: 11px 0 0 3px; line-height: 1.45; letter-spacing: -0.09em;}
+.mv .mv_title .white_btn{font-size: 18px; font-weight: 400; letter-spacing: 0; color: rgba(255,255,255,1); margin-top: 96px; border: 2px solid #fff; padding-top: 0; line-height: 54px; width: 255px; height: 60px;}
+.mv .mv_title .white_btn:hover{color: #000; background: rgba(255,255,255,1);}
+
+/*메인 비주얼*/
+.mv{padding-top: 120px; margin-top: 0 !important;}
+
+.mv a{height: 535px; display: block;}
+.mv .mv1{background: url(../img/mv_01.jpg) no-repeat bottom;}
+.mv .mv2{background: url(../img/mv_02.jpg) no-repeat bottom;}
+.mv .mv3{background: url(../img/mv_03.jpg) no-repeat bottom;}
+.mv .mv4{background: url(../img/mv_04.jpg) no-repeat bottom;}
+
+.mv1 .mv_title{font-size: 28px; color: #000; float: left; border: 0px solid yellow; height: 100%; padding: 90px 49px 0 24px; padding-left: 2vw;}
+.mv1 .mv_title h2{font-family: 'Noto Serif', serif; font-size: 88px; font-weight: 700; color: #000; display: block; letter-spacing: -0.08em; position: relative;}
+.mv1 .mv_title h2 span{font-size: 17px; font-family: 'Noto Sans KR', sans-serif; font-weight: 700; color: #000; position: absolute; left: 240px; top: 8px; display:block; letter-spacing: 0; background: none;}
+.mv1 .mv_title h3{font-size: 32px; font-weight: 700; line-height: 1.4; display: block; letter-spacing: -0.08em; padding-top: 23px;}
+.mv1 .mv_title p{font-size: 17px; font-weight: 400; padding-top: 15px; line-height: 1.8; letter-spacing: -0.09em;}
+.mv1 .mv_title .white_btn{font-size: 21px; font-weight: 500; color: #000; letter-spacing: 0; margin-top: 40px; padding-top: 0; line-height: 54px; width: 255px; height: 60px; border: 2px solid #000;}
+.mv1 .mv_title .white_btn:hover{color: #eee8c6; background: #000;}
+
+.mv4 .mv_title{color: #000;}
+.mv4 .mv_title .white_btn{color: #000; border: 2px solid #000;}
+.mv4 .mv_title .white_btn:hover{color: #fff; background: #000;}
+
+.mv .swiper-pagination{text-align: center; bottom: 20px;}
+.mv .swiper-pagination-bullet{width: 10px; height: 10px; background: #fff; opacity: 1; border-radius: 5px;}
+.mv .swiper-pagination-bullet-active{background: #ff0000;}
+
+/*타이틀박스 공통*/
+.title_box{background: #f7f7f7; color: #2e2e2e; font-size: 15px; padding: 57px 30px 0 30px; line-height: 1.6;}
+.title_box h2{font-weight: 700; font-size: 36px; margin-bottom: 28px; line-height: 1.25;}
+.title_box h2:after{content:""; display: block; width: 40px; height: 4px; background: #2e2e2e; margin-top: 30px;}
+.title_box p{font-size: 15px; line-height: 1.6; letter-spacing: -0.06em;}
+
+/*회색박스 공통*/
+.gray_box{border: 1px solid #dedede; background: #fff; position: relative;}
+.gray_box:hover{}
+
+.gray_box img{width: 100%; transition: 0.5s}
+.gray_box .text_box{padding: 30px 30px 0 28px;}
+.gray_box .text_box h3{font-size: 24px; font-weight: 700; line-height: 1.5;}
+.gray_box .text_box h3 br{display: none;}
+.gray_box .text_box h4{font-size: 18px; font-weight: 400; line-height: 1.5;}
+/* .gray_box .text_box span{background:url(../img/viewmore.png) no-repeat; height: 21px; display: block; font-size: 13px; padding: 4px 0 0 26px;} */
+
+/*흰색 버튼 공통*/
+.white_btn{display: block; width: 170px; height:60px; line-height: 56px; border: 2px solid #fff; text-align: center; color: #fff;}
+.white_btn:hover{background: #fff; color: #ff0000; font-weight: 700;}
+
+/*더보기 버튼 공통*/
+.viewmore{background: url(../img/viewmore.png) no-repeat; height: 27px; display: block; font-size: 13px; font-weight: 700; padding: 7px 0 0 32px; position: absolute; bottom: 28px;}
+
+/*컬렉션1*/
+.collection1 .inner{width: calc(100% - 20px);}
+.collection1 a{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	height: 529px;
+	width: calc(50% - 20px / 2);
+	
+	/*
+	width: 49.15254237288136%; 계산방식 580px/1180px*100;
+	margin-right: 1.694915254237288%; 계산방식 20px/1180px*100;
+	*/
+}
+.collection1 a:last-child{margin-right: 0;}
+.collection1 .gray_box .img_box{overflow: hidden;}
+.collection1 .gray_box:hover img{transform: scale(120%)}
+
+
+/*컬렉션2*/
+.collection2 .inner{width: calc(100% - 20px);}
+.collection2 .gray_box .img_box{overflow: hidden;}
+.collection2 .gray_box:hover img{transform: scale(120%)}
+.collection2 .gray_box .text_box{padding: 26px 10px 0 16px;}
+.collection2 .gray_box .text_box h3{font-size: 20px; font-weight: 700;}
+.collection2 .gray_box .text_box h4{font-size: 14px; font-weight: 400; line-height: 1.7;}
+.collection2 .title_box, .collection2 a{float: left; height: 445px; width: calc(33.3333% - 40px / 3); margin-right: 20px; display: block;}
+.collection2 a:last-child{margin-right: 0;}
+.collection2 a{font-weight: 700; color: 2e2e2e;}
+
+/*특별 페이지*/
+.special_page {background: url(../img/special_page.jpg) no-repeat center / cover fixed;}
+.special_page .title_box {background: rgba(255,0,0, 0.6); height: 606px; width: calc(33.3333% - 40px / 3); padding-top: 87px; color: #fff;}
+.special_page .title_box h2:after{background: #fff;}
+.special_page .white_btn {margin-top: 31px;}
+
+/*유니클로 유*/
+.uniqlo_u{height: 454px;}
+.uniqlo_u .inner{height: 100%;}
+.uniqlo_u .uniqlo_u_img, .uniqlo_u .title_box{height: 100%; float: left;}
+
+.uniqlo_u .uniqlo_u_img{width: calc(100% - (33.3333% - 40px / 3)); background:url(../img/uniqlou.jpg) no-repeat; text-indent: -9999px;}
+.uniqlo_u .title_box{width: calc(33.3333% - 40px / 3); color: #2e2e2e; display: block; padding: 45px 30px 0 30px;}
+.uniqlo_u .title_box h2:after{background: #2e2e2e; line-height: 1.277777777777778;}
+.uniqlo_u .title_box p{margin-bottom: 50px; line-height: 1.5;}
+.uniqlo_u .viewmore{padding-top: 3px;}
+
+/*라이프 웨어*/
+.lifewear{padding-top: 40px;}
+.lifewear h2{font-weight: 900; font-size: 24px; color: #2e2e2e; margin-bottom: 40px;}
+.lifewear h2:after{content:""; display: inline-block; width: calc(100% - 202px); /*라이프 웨어 글자 및 여백을 제외한 나머지 너비*/ height: 3px; background: #7d7d7d; margin: 0 0 7px 15px;}
+
+/* 
+.lifewear_list li{float: left; border: 0px solid red;}
+.lifewear_list li:last-child{margin-right: 0;}
+*/
+/*width: calc(33.3333% - 40px / 3); margin-right: 20px;*/ 
+
+.lifewear_list li a{display: block; position: relative;}
+.lifewear_list li img{width: 100%;}
+.lifewear_list li p{background: rgba(0,0,0,0.6) url(../img/arrow_right.png) no-repeat calc(100% - 27px) center; color: #fff; font-weight: 700; font-size: 15px; height: 60px; line-height: 60px; text-indent: 30px; position: absolute; left: 0; bottom: 0; width: 100%;}
+.lifewear_list li a:hover p{background: rgba(255,0,0,0.8) url(../img/arrow_right.png) no-repeat calc(100% - 27px) center;}
+
+
+
+
+
+
+
+/* 큰 태블릿 또는 작은 노트북 */
+@media screen and (max-width : 1200px){
+	/* 타이틀박스공통 */
+	.title_box h2{font-size: 3vw; font-weight: 700; margin-bottom: 28px; line-height: 1.25;}
+	.title_box h2 br{display: none;}
+	
+	
+	/* 회색박스공통*/
+	.gray_box .text_box h3{font-size: 2vw;}
+	.gray_box .text_box h4{font-size: 1.5vw;}
+	
+	/* 컬렉션1 */
+	.collection1 a{height: calc(35.83333333333333vw + 99px);}
+	
+	/* 358px(이미지) + 72px(h3) / 1200 * 100 */
+	
+	/* 컬렉션2 */
+	.collection2 .title_box .collection2 a{height: calc(24.25vw + 164px);}/* 이미지 높이 (231px) + h3글자의 높이 (60px)를 vw로 변환  즉, 291 / 1200 * 100, 455px (박스의 전체 높이) 291px을 제외한 값을 px로 추가함*  24.16666666666667vw + 155px*/
+	.collection2 .gray_box .text_box h3{font-size: 1.666666666666667vw; line-height: 1.3;}
+	/* .collection2 .gray_box .text_box h3 br{display: block;} */
+	
+	/* 특별 페이지 */
+	.special_page .title_box{width: 470px; height: 520px; padding-top: 40px;}
+	.special_page .title_box h2 {font-size: 32px;}
+	
+	/* 식재료 이야기 */
+	.uniqlo_u {height: 375px;}
+	.uniqlo_u .title_box p br{display: none;}
+	
+	/* 라이프 웨어 */
+	.lifewear .inner{width: calc(100% - 20px);}
+}
+
+/* 태블릿 */
+@media screen and (max-width : 960px){
+	/* 메인비주얼 */
+	.mv{padding-top: 60px;}
+	.mv a{height: 307px;}
+	.mv .mv1{background-color: #eee8c6; background-size: 765px; background-position: center;}
+	.mv .mv2{background-size: 960px; background-position: top;}
+	.mv .mv3{background-size: 960px; background-position: top;}
+	.mv .mv4{background-size: 1120px; background-position: 0px -35px;}
+	
+	.mv .mv_title {font-size: 18px; padding-top: 35px; padding-left: 14.89583333333333vw;}
+	.mv .mv_title h2{font-size: 56px; font-weight: 700; color: #000; display: block; letter-spacing: -0.08em; position: relative;}
+	.mv .mv_title h2 span{font-size: 11px; font-family: 'Noto Sans KR', sans-serif; font-weight: 700; color: #000; position: absolute; left: 155px; top: 4px; display:block; letter-spacing: 0;}
+	.mv .mv_title h3{font-size: 21px; font-weight: 700; line-height: 1.4; display:block; letter-spacing: -0.05em; padding-top: 45px;}
+	.mv .mv_title p{font-size: 12px; font-weight: 400; padding-top: 0; line-height: 1.8; letter-spacing: -0.09em;}
+	.mv .mv_title .white_btn{font-size: 13px; margin-top: 55px; line-height: 32px; width: 160px; height: 35px; border: 1px solid #fff;}
+	
+	.mv1 .mv_title {font-size: 18px; padding-top: 35px; padding-left: 14.89583333333333vw;}
+	.mv1 .mv_title h2{font-size: 56px; font-weight: 700; color: #000; display: block; letter-spacing: -0.08em; position: relative;}
+	.mv1 .mv_title h2 span{font-size: 11px; font-family: 'Noto Sans KR', sans-serif; font-weight: 700; color: #000; position: absolute; left: 155px; top: 4px; display:block; letter-spacing: 0;}
+	.mv1 .mv_title h3{font-size: 21px; font-weight: 700; line-height: 1.4; display:block; letter-spacing: -0.05em; padding-top: 23px;}
+	.mv1 .mv_title p{font-size: 12px; font-weight: 400; padding-top: 8px; line-height: 1.8; letter-spacing: -0.09em;}
+	.mv1 .mv_title .white_btn{border: 1px solid #000; margin-top: 30px;}
+	
+	.mv4 .mv_title .white_btn{font-size: 13px; margin-top: 55px; line-height: 32px; width: 160px; height: 35px; border: 1px solid #000;}
+	/* .mv2 .mv_title, .mv3 .mv_title, .mv4 .mv_title */	
+	/* .mv2 .mv_title{font-size: 28px; color: #fff; float: left; border: 0px solid yellow; height: 100%; padding: 90px 10px 0 0; padding-left: 13vw;} */
+	/* .mv .mv_title p{font-size: 15px; font-weight: 400; padding-top: 7px; line-height: 1.3; letter-spacing: -0.075em;} */
+	/* .mv2 .mv_title .white_btn{font-size: 12px; margin-top: 49px; line-height: 32px; width: 163px; height: 35px; border: 1px solid #fff;} */
+	
+	.mv .swiper-pagination{text-align: center; bottom: 15px;}
+	
+	/* 타이틀박스 공통*/
+	.title_box{padding: 53px 19px 0 19px;}
+	.title_box h2{font-size: 26px;}
+	.title_box p {font-size: 15px;}
+	.title_box p br{display: none;}
+	
+		
+	/* 회색박스공통 */
+	.gray_box .text_box{padding: 18px 18px 0;}
+	.gray_box .text_box h3{font-size: 18px; line-height: 1.3;}
+	.gray_box .text_box h4{font-size: 12px; padding-top: 5px;}
+	
+	/* 컬렉션 */
+	.collection2 .title_box p {letter-spacing: -0.07em;}
+	.collection2 .title_box p br{display: none;}
+	.collection2 .title_box, .collection2 a{height: 46.35416666666667vw; }
+	.collection2 .gray_box .text_box h3{font-size: 18px;}
+	.collection2 .gray_box .text_box h3 br{display: none;}	
+	.collection2 .gray_box .text_box {height: calc(24.25vw + 164px);}	
+	
+	/* 특별 페이지 */
+	.special_page .title_box{height: 410px;}
+	.white_btn {width: 150px;}
+	
+	/* 유니클로 유 */
+	.uniqlo_u{height: 400px;}
+	.uniqlo_u .uniqlo_u_img{background-position: center; width: calc(100% - 310px);}
+	.uniqlo_u .title_box{width: 310px; padding: 45px 20px 0 25px;}
+    
+	
+	/* 라이프 웨어 */
+	.lifewear{padding: 0; }
+}
+
+/* 소형테블릿 */
+@media screen and (max-width : 768px){
+	/* 메인비주얼 */
+	
+	.mv .mv_title{padding-left: 7.812vw; /*6px (임의의 값) / 768px (현재미디어쿼리로 잡은 분기점해상동)*/}
+	
+	/* 타이틀박스공통 */
+	.title_box p br{display: block;}
+	
+	/* 회색박스공통 */	
+	.gray_box .text_box h3 br{display: block;}
+	
+	/* 컬렉션1 */
+	.collection1 a{height: calc(29vw + 190px);} /* 레이아웃이 틀어지지 않게 임의로 조정 */
+	
+	/* 컬렉션 */
+	.collection2 .title_box{float: none; width: calc(100% + 20px); margin-left: -10px; height: 480px;}/*부모인 inner 너비보다 넓게 표현하기 위한 방법*/
+	.collection2 a{width: calc(50% - 20px / 2); margin-top: -146px; height: calc(38vw + 170px); /*높이 임의조정*/}
+	
+	/* 특별 페이지 */
+	.special_page .inner{width: calc(100% - 20px); padding: 34px 0;}
+	.special_page .title_box{width: 100%; max-width: 540px; margin: 0 auto; height: 494px; padding-top: 65px;}
+	
+	/* 유니클로 유 */
+	.uniqlo_u{height: auto;}
+	.uniqlo_u .inner{width: calc(100% - 20px);}
+	.uniqlo_u .uniqlo_u_img, .uniqlo_u .title_box{float: none; width: 100%;}
+	.uniqlo_u .uniqlo_u_img{height: 55vw; background-size: cover; min-height: 230px;}
+	.uniqlo_u .gray_box{padding-bottom: 20px;}
+	.uniqlo_u .title_box{padding: 45px 30px 20px 30px;}
+	.uniqlo_u .title_box h2 br:nth-child(1){display: none;}
+	.uniqlo_u .viewmore{position: static; bottom: auto;}
+	
+	/* 라이프 웨어 */
+	
+	/* .lifewear_list li{width: calc(50% - 20px / 2);} */
+	/* .lifewear_list li:nth-child(2){margin-right: 0;} */
+	/*.lifewear_list li:last-child{display: none;}*/
+	.lifewear_list li p{height: 50px; line-height: 50px; font-size: 13px; text-indent: 20px; background-position: calc(100% - 20px) center;}
+	.lifewear_list li a:hover p{background-position: calc(100% - 20px) center;}
+
+}
+
+/* 모바일*/
+@media screen and (max-width : 480px){
+	/* 섹션공통 */
+	.contents > section: {margin-top: 40px;}
+	
+	/* 메인비주얼 */
+	.mv{padding-top: 50px;}
+	
+	.mv a{height: 66.66666666666667vw;/*320px vw로 변환*/ min-height: 270px;}	
+	.mv .mv1{background: #eee8c6 url(../img/mv_01.jpg) no-repeat -118px 45px; background-size: 650px;}
+	.mv .mv2{background-size: 763px;}
+	.mv .mv3{background-size: 763px;}
+	.mv .mv4{background-size: 800px; background-position: -167px -8px;}
+	
+	.mv .mv_title{width: 61%; padding: 12% 0 0 24px;}
+	.mv .mv_title h2{font-size: 47px; font-weight: 700; position: relative;}
+	.mv .mv_title h2 span{font-size: 1.875vw; position: absolute; left: 130px; top: 3px; display:block; letter-spacing: 0;}
+	.mv .mv_title h3{font-size: 18px; font-weight: 700; line-height: 1.4; display:block; letter-spacing: -0.05em; padding-top: 30px;}
+	.mv .mv_title .white_btn{margin-top: 11.45833333333333vw;}
+	/* .mv .mv_title p{margin-top: 8px;} */
+
+	.mv1 .mv_title p{display: none;}
+	.mv1 .mv_title .white_btn{display: block; margin-top: 9.375vw; width: 130px;}
+	
+	.mv4 .mv_title .white_btn{background: #000; color: #fff;}
+	
+	
+	.mv .swiper-pagination{text-align: middle;}
+	
+	/* 타이틀박스 공통*/
+	.title_box h2{font-size: 6.666666666666667vw;} 
+		
+	/* 회색박스공통 */
+	.gray_box{padding-bottom: 20px !important;}
+	.gray_box .text_box h3{height: auto;}/* 기존에 따로 가졌던  height값을 상실하고 안에 있는 자식요소들(컨텐츠)이 만들어내는  높이값을 가지게함 */
+	.gray_box .text_box h4{margin-bottom: 20px;}
+	
+	/* 더보기 버튼 */
+	.viewmore{position: static; bottom: auto;}
+	
+	/* 컬렉션1 */
+	.collection1 .inner{width: calc(100% - 36px);}
+	.collection1 a{float: none; margin-right: 0; width: 100%; margin-bottom: 20px; height: auto;}
+	.collection1 a:last-of-type{margin-bottom: 0;}
+	
+	/* 컬렉션 */
+	.collection2 .inner{width: calc(100% - 36px);}
+	.collection2 .title_box{width: calc(100% + 36px); margin-left: -18px;}
+	.collection2 a{float: none; width: 100%; height: auto;}
+	.collection2 a:last-child{margin-top: 20px;}
+	.collection2 .gray_box .text_box {height: 100%}
+	
+	/* 특별 페이지 */
+	.special_page .title_box p br{display: none;}
+	
+	/* 유니클로 유 */
+	.uniqlo_u .inner{width: calc(100% - 36px);}
+	.uniqlo_u .title_box{padding: 28px 15px 0 15px;}
+	.uniqlo_u .title_box p{margin-bottom: 32px;}
+	
+	/* 라이프 웨어 */
+	.content > .lifewear{margin-top: 50px;}
+	.lifewear .inner{width: calc(100% - 36px);}
+	.lifewear_list_wrap{width: calc(100% + 10px); /*overflow: auto;*/}
+	/* .lifewear_list{width: 170%;} */
+}
+
+/* 작은 모바일 */
+/* @media screen and (max-width : 320px){ */
+	/* 메인비주얼 */
+	/* .mv .mv_title{width: 61%; padding: 12% 0 0 24px;} */
+	
+}
